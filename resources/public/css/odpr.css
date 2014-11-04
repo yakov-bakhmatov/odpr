@@ -1,0 +1,58 @@
+body {
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Arial, Helvetica, sans-serif;
+  margin: 0 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 4px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.link {
+  text-align: center;
+  font-size: 12px;
+}
+
+#chart {
+  min-width: 400px;
+  height: 400px;
+  margin: 20px auto;
+}
+
+.series-1, .series-2 {
+  font-size: 12px;
+  font-weight: bold;
+  text-indent: -5em;
+  margin-left: 10em;
+}
+
+.series-1 {
+  color: #7cb5ec;
+}
+
+.series-2 {
+  color: #434348;
+  margin-bottom: 10px;
+}
+
+.count-info {
+  color: #666666;
+  font-size: 8px;
+  margin-top: 40px;
+}
+
+.filter {
+  font-size: 12px;
+  margin-left: 40px;
+}
+
+.factor1 {
+  margin-left: 40px;
+}
