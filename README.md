@@ -3,22 +3,22 @@ odpr
 
 Ложные корреляции по открытым данным Пермского края
 
-1. Загрузить данные
+Загрузить данные
 
-lein run load-data
+`lein run load-data`
 
-2. Подготовить данные
+Подготовить данные
 
-lein run prepare-data
+`lein run prepare-data`
 
-3. Вычислить попарные корреляции
+Вычислить попарные корреляции
 
-lein run calculate
+`lein run calculate`
 
-4. Отфильтровать корреляции и данные
+Отфильтровать корреляции и данные
 
-lein run prepare-correlation
+`lein run prepare-correlation`
 
-5. Запустить веб-сервер
+Запустить веб-сервер
 
-lein run serve
+`lein run serve`
