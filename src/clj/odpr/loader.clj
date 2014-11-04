@@ -123,12 +123,9 @@
 (defn- get-year [date]
   (date-core/year date))
 
-#_(defn- load-factors-xml []
+(defn- load-factors-xml []
   (let [client (soap/client-fn "http://opendata.permkrai.ru/LoadDataManager/api/DataPub.asmx?WSDL")]
     (client :GetXMLFactors)))
-
-(defn- load-factors-xml []
-  (slurp "data/factors.xml"))
 
 (defmulti parse-factors-element (fn [elem] (:tag elem)))
 
